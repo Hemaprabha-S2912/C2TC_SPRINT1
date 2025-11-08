@@ -16,7 +16,7 @@ import jakarta.persistence.NoResultException;
 public class CertificateController {
 
     @Autowired
-    private CertificateService c;  // creating object for CertificateService for method mapping
+    private CertificateService c;  
 
     // GET all certificates
     @GetMapping("/certificateservice")
