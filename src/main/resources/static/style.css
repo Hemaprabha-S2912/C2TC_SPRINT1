@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+}
+
+.container{
+    width:90%;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+h1{
+    text-align:center;
+    color:#2900cc;
+}
+
+.form-section{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+}
+
+input{
+    padding:10px;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+.buttons{
+    grid-column:span 2;
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    margin-right:5px;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+.search{
+    margin:20px 0;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#0066cc;
+    color:white;
+    padding:10px;
+}
+
+td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+.edit-btn{
+    background:orange;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+}
+.field{
+    display:flex;
+    flex-direction:column;
+}
+
+.field label{
+    margin-bottom:5px;
+    font-weight:bold;
+    color:#0066cc;
+}
+
+input{
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+input:focus{
+    outline:none;
+    border:2px solid #4facfe;
+}
+
+button{
+    background:#0066cc;
+    color:white;
+    font-weight:bold;
+}
+
+button:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
